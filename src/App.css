@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {background-color: #d4d4d4;}
+/* span{background-color: transparent;} */
+
+/* Hotel Bookings Website Front Page Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', 'Poppins', sans-serif;
+}
+
+h2, h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
