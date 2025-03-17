@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
-*{background-color: #000000;}
+/* *{background-color: #000000}; */
+body{background-image: url(Untitled-1.jpg);background-size: cover;}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

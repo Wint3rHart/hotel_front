@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-body {background-color: #d4d4d4;}
+body {background-color: #050505;}
 /* span{background-color: transparent;} */
 
 /* Hotel Bookings Website Front Page Styles */
@@ -19,4 +19,22 @@ h2, h1 {
 p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+}
+.will-change-transform {
+  will-change: transform;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE, Edge */
+body {
+  -ms-overflow-style: none;
 }
